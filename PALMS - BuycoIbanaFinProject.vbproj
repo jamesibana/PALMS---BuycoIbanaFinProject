@@ -73,11 +73,41 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="CRUDFormTheme1.Designer.vb">
+      <DependentUpon>CRUDFormTheme1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CRUDFormTheme1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="CRUDFormTheme2.Designer.vb">
+      <DependentUpon>CRUDFormTheme2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CRUDFormTheme2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUDFormTheme3.Designer.vb">
+      <DependentUpon>CRUDFormTheme3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CRUDFormTheme3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormTheme1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormTheme1.Designer.vb">
+      <DependentUpon>MainFormTheme1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormTheme2.Designer.vb">
+      <DependentUpon>MainFormTheme2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainFormTheme2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormTheme3.Designer.vb">
+      <DependentUpon>MainFormTheme3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainFormTheme3.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,6 +127,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="MainFormTheme1.resx">
+      <DependentUpon>MainFormTheme1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFormTheme2.resx">
+      <DependentUpon>MainFormTheme2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFormTheme3.resx">
+      <DependentUpon>MainFormTheme3.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
